@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border: 5px solid black;
+    overflow: hidden; /* Hide any overflow content */
+    position: relative; /* Needed for absolute positioning of text */
+}
+
+.CircleMark, .CrossMark {
+    font-size: 200px; /* Adjust font size as needed */
+    color: red;
+    position: absolute; /* Allow scaling to fit the container */
+    transform: scale(1); /* Initial scale */
+    transform-origin: center; /* Scale from the center */
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin: 0; /* Remove default margin */
+}

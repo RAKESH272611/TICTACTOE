@@ -1,0 +1,16 @@
+.upperContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(227, 215, 227);
+   
+ }
+ 
+ .MainContainer {
+   display: grid;
+   grid-template-columns: repeat(3, 200px);
+   grid-template-rows: repeat(3, 200px);
+   
+ }
+ 
